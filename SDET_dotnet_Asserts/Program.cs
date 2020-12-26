@@ -34,7 +34,7 @@ namespace UnoSquare_Maintenance
         #region Google Locators
         By GoogleSearchBar = By.XPath("//form[@id='tsf']//div[@class='A8SBwf']//div[@class='a4bIc']/input[@role='combobox']");
         By GoogleSearIcon = By.XPath("/html//form[@id='tsf']//div[@class='A8SBwf']/div[@class='FPdoLc tfB0Bf']/center/input[@name='btnK']");
-        By UnoSquareGoogleResult = By.XPath("//div[@id='rso']/div[1]/div[@class='rc']//a[@href='https://www.unosquare.com/']//span");        
+        By UnoSquareGoogleResult = By.CssSelector("div:nth-of-type(1) > .rc h3 > span");                
         By GoogleOutSearchResult = By.XPath("//form[@id='tsf']/div[2]");
         #endregion
 
